@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@whip/config':
+        specifier: workspace:*
+        version: link:packages/config
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
