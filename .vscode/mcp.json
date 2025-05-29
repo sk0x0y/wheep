@@ -1,0 +1,23 @@
+{
+  "servers": {
+    "commit-convention-mcp": {
+      "command": "npx",
+      "args": ["-y", "@myutex/commit-convention-mcp@latest"]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+    "mcp-server-firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-ade106e5cf00498f8a4c71a550d8ff58"
+      }
+    }
+  }
+}
