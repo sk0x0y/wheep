@@ -1,5 +1,5 @@
 {
-  "extends": "@wheep/config/tsconfig-base.json",
+  "extends": "@whip/config/tsconfig-base.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": ".",
