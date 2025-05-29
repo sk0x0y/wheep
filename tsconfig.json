@@ -1,0 +1,12 @@
+{
+  "extends": "@wheep/config/tsconfig-base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@wheep/config/*": ["packages/config/*"],
+      "@wheep/lib/*": ["packages/lib/*"],
+      "@wheep/ui/*": ["packages/ui/*"]
+    }
+  },
+  "include": ["apps/**/*", "packages/**/*"]
+}
