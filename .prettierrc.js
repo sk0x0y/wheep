@@ -1,1 +1,1 @@
-module.exports = require("@wheep/config/prettier-preset");
+module.exports = require("@whip/config/prettier-preset");

@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['@wheep/config/eslint-preset'],
+  extends: ["@whip/config/eslint-preset"],
 };
