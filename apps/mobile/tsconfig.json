@@ -1,0 +1,11 @@
+{
+  "extends": "@whip/config/tsconfig-base.json",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@whip/ui/*": ["../../packages/ui/*"],
+      "@whip/lib/*": ["../../packages/lib/*"]
+    }
+  }
+}
