@@ -1,5 +1,5 @@
 {
-  "name": "wheep",
+  "name": "whip",
   "private": true,
   "scripts": {
     "build": "turbo run build",
