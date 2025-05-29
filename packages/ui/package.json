@@ -1,0 +1,25 @@
+{
+  "name": "@wheep/ui",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./design-system": "./design-system/index.js"
+  },
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules dist",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.74.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.4.5"
+  }
+}
